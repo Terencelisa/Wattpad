@@ -8,7 +8,7 @@
 
 html {
     background: #e3e3e3;
-    cursor: url(cursor.png), auto;
+    cursor: url(/Wattpad/Images/cursor.png), auto;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
     border: thin;
     padding-right: none;
     display: block;
-    cursor: url(Pointer cursor.png), auto;
+    cursor: url(/Wattpad/Images/Pointer\ cursor.png), auto;
 }
 
 .label button {
@@ -79,40 +79,38 @@ ul li:hover {
 }
 
 a {
-    cursor: url(Pointer cursor.png), auto;
+    cursor: url(/Wattpad/Images/Pointer\ cursor.png), auto;
 }
 
 #top {
     min-height: 100vh;
+}
+
+fieldset {
+    padding: 1em;
+    margin: 1em;
+    min-height: 94vh;
     display: flex;
-    justify-content: center;
+    justify-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
 h1 {
-    display: block;
     width: fit-content;
-    padding: 1em;
     font-size: 4.5rem;
-    border-radius: 0.5em;
-    max-width: 75%;
     text-align: center;
     margin: auto;
+    font-weight: lighter;
 }
 
 h2 {
-    font-size: 3rem;
-    padding: 0 5em;
-    width: fit-content;
-    font-family: "Poppins", sans-serif;
     text-align: center;
-    display: block;
 }
 
 .index {
     background: azure;
     min-height: 100vh;
-    padding: 5em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -123,13 +121,13 @@ h3 {
     text-align: center;
     border-bottom: double 2px black;
     width: fit-content;
-    margin: 4em auto 1em;
+    margin: 0 auto 1em;
 }
 
 table {
     caption-side: bottom;
     width: fit-content;
-    margin: 0 auto 5em;
+    margin: auto;
     border: 4px solid black;
 }
 
@@ -149,7 +147,7 @@ td {
 
 caption {
     font-size: 1.5rem;
-    margin: 0.5em auto;
+    margin: auto;
     text-decoration: underline 1px;
 }
 
@@ -160,10 +158,15 @@ caption {
     flex-direction: column;
 }
 
+legend {
+    margin: auto;
+    font-weight: 300;
+}
+
 img {
     float: left;
-    padding: 10px;
     width: fit-content;
+    padding-right: 10px;
 }
 
 input {
@@ -172,3 +175,4 @@ input {
     min-width: 50px;
     max-height: 20%;
 }
+
