@@ -23,7 +23,7 @@ body {
     border: thin;
     padding-right: none;
     display: block;
-    cursor: url(Pointer\ cursor.png), auto;
+    cursor: url(Pointer cursor.png), auto;
 }
 
 .label button {
@@ -79,7 +79,7 @@ ul li:hover {
 }
 
 a {
-    cursor: url(Pointer\ cursor.png), auto;
+    cursor: url(Pointer cursor.png), auto;
 }
 
 #top {
