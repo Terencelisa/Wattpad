@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: #e3e3e3;
+    cursor: url(/Wattpad/Images/cursor.png), auto;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.label {
+    display: block;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border: thin;
+    padding-right: none;
+    display: block;
+    cursor: url(/Wattpad/Images/Pointer\ cursor.png), auto;
+}
+
+.label button {
+    background: rgba(211, 211, 211, 0.539);
+}
+
+.label:hover svg {
+    transform: rotate(180deg);
+}
+
+.navbar {
+    margin: 1em;
+    border: black solid 1px;
+    border-radius: 0.5em;
+    width: max-content;
+    text-align: center;
+    display: inline;
+    position: fixed;
+    float: right;
+    background: rgba(211, 211, 211, 0.539);
+}
+
+.nav {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+
+nav a {
+    font-size: 1.25rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    padding: 1em;
+    line-height: 3em;
+}
+
+ul li:hover {
+    background: #e3e3e3;
+}
+
+.label:hover .nav {
+    display: inline-block;
+}
+
+.label svg {
+    height: 2rem;
+    width: 2rem;
+    vertical-align: middle;
+}
+
+a {
+    cursor: url(/Wattpad/Images/Pointer\ cursor.png), auto;
+}
+
+#top {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    display: block;
+    width: fit-content;
+    padding: 1em;
+    font-size: 4.5rem;
+    border-radius: 0.5em;
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 0 5em;
+    width: fit-content;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.index {
+    background: azure;
+    min-height: 100vh;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: double 2px black;
+    width: fit-content;
+    margin: 4em auto 1em;
+}
+
+table {
+    caption-side: bottom;
+    width: fit-content;
+    margin: 0 auto 5em;
+    border: 4px solid black;
+}
+
+th {
+    text-align: center;
+    font-size: 2rem;
+    border: 2px black solid;
+    padding: 0.5em;
+}
+
+td {
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px black solid;
+    padding: 0.5em;
+}
+
+caption {
+    font-size: 1.5rem;
+    margin: 0.5em auto;
+    text-decoration: underline 1px;
+}
+
+#enchantress {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    float: left;
+    padding: 10px;
+    width: fit-content;
+}
+
+input {
+    max-width: 200px;
+    width: 80%;
+    min-width: 50px;
+    max-height: 20%;
+}
