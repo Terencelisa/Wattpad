@@ -8,7 +8,7 @@
 
 html {
     background: #e3e3e3;
-    cursor: url(/Wattpad/Images/cursor.png), auto;
+    cursor: url(cursor.png), auto;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
     border: thin;
     padding-right: none;
     display: block;
-    cursor: url(/Wattpad/Images/Pointer\ cursor.png), auto;
+    cursor: url(Pointer\ cursor.png), auto;
 }
 
 .label button {
@@ -79,7 +79,7 @@ ul li:hover {
 }
 
 a {
-    cursor: url(/Wattpad/Images/Pointer\ cursor.png), auto;
+    cursor: url(Pointer\ cursor.png), auto;
 }
 
 #top {
