@@ -171,16 +171,21 @@ legend {
 }
 
 form {
-    display: inline-flex;
-    align-items: center;
-    margin: 5em 3em 3em;
+    margin: 5em 3em 0;
 }
 
 form label {
     float: left;
-    margin: auto;
+    margin: 0.5em;
     font-weight: bold;
-    vertical-align: middle;
+}
+
+.form {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form textarea {
