@@ -170,13 +170,17 @@ caption {
 }
 
 form {
-    margin: 4em 3em 0;
+    margin: 4em auto 0;
+    display: inline-flex;
+    flex-direction: row;
+    float: left;
 }
 
 form label {
     float: left;
     margin: 0.5em;
     font-weight: bold;
+    height: fit-content;
 }
 
 .form {
@@ -202,19 +206,20 @@ form textarea {
 :placeholder-shown {
     padding: 0.5em;
 }
-
-.button button {
-    display: inline-flex;
+.buttons {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
     flex-direction: row;
-    align-content: space-between;
-    justify-items: center;
-
+    justify-content: space-evenly;
+    width: 400px;
 }
 
-button {
+form button {
     padding: 0.5em;
     border-radius: 0.5em;
     margin: 0.5em auto;
+    width: 58.83px;
 }
 
 
