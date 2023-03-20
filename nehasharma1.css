@@ -16,7 +16,7 @@ body {
     font-size: 2rem;
     padding: 0.5rem;
     border: thin;
-    padding-right: none;
+    padding-right: 0;
     display: block;
 }
 
@@ -67,7 +67,7 @@ ul li:hover {
     display: inline-block;
 }
 
-.label svg {
+.navbar svg {
     height: 2rem;
     width: 2rem;
     vertical-align: middle;
@@ -188,7 +188,6 @@ form label {
 }
 
 form textarea {
-    resize: none;
     min-width: 70vw;
     font-size: 16px;
     height: 150px;
@@ -197,18 +196,25 @@ form textarea {
     border-radius: 0.2em;
     position: relative;
     display: inline-block;
+    resize: none;
 }
 
 :placeholder-shown {
     padding: 0.5em;
 }
 
-form button {
-    margin: 0.5em auto;
+.button button {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-items: center;
+
 }
 
 button {
     padding: 0.5em;
     border-radius: 0.5em;
+    margin: 0.5em auto;
 }
+
 
