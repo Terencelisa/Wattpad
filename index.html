@@ -11,9 +11,9 @@
         <title>NehaSharma205</title>
     </head>
     <body>
-        <section class="navbar">
-            <nav aria-labelledby="label" class="label">
-                <button class="label">
+        <div class="navbar">
+            <nav aria-labelledby="contents" class="label">
+                <button class="label" id="contents">
                     Contents
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -21,30 +21,30 @@
                         fill="currentColor"
                         class="w-5 h-5"
                     >
-                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd">
-                        </svg>
-                    </button>
-                    <section class="nav" class="center">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                    <div class="nav">
                         <ul>
                             <li class="list">
                                 <a href="#top" title="Click here to go to the top of the page">
                                     Top
                                 </a>
                             </li>
-                            <li class="list">
+                            <li>
                                 <a href="#index" title="Click here to go to the index section">
                                     Index
                                 </a>
                             </li>
-                            <li class="list">
+                            <li>
                                 <a href="#enchantress" title="Click here to read about the Enchantress book">
                                     The Enchantress
                                 </a>
                             </li>
                         </ul>
-                    </section>
-                </nav>
-            </section>
+                    </div>
+            </nav>
+        </div>
             <main>
                 <section id="top">
                     <fieldset>
@@ -60,6 +60,7 @@
                         <legend>INDEX</legend>
                         <h3>Index</h3>
                         <table>
+                            <caption>Neha Sharma's works</caption>
                             <thead>
                                 <tr>
                                     <th scope="col">Sr. No.</th>
@@ -87,7 +88,6 @@
                                     </td>
                                 </tr>
                             </tbody>
-                            <caption>Neha Sharma's works</caption>
                         </table>
                     </fieldset>
                 </section>
@@ -96,7 +96,7 @@
                         <legend>THE ENCHANTRESS</legend>
                         <h3>The Enchantress</h3>
                         <div class="content">
-                            <a href="https://www.wattpad.com/story/314234050-the-enchantress"  target="_blank">
+                            <a href="https://www.wattpad.com/story/314234050-the-enchantress" target="_blank">
                                 <img
                                     src="mohini.jpg"
                                     height="179"
@@ -112,16 +112,20 @@
                             related to her?
                             </p>
                         </div>
-                        <p>
-                             <form action="mailto:kshitija.sonawane.thane@gmail.com" method="post">
+                        <form>
                             <label for="theenchantress">Your review:</label>
-                            <div class="form">
+                            <div>
                                 <p>
                                     <textarea name="theenchantress" id="theenchantress" placeholder="Your reviews after reading the book:"></textarea>
                                 </p>
+                                <div class="buttons">
                                 <p>
-                                    <button type="submit">Submit</button>
+                                    <button type="submit" formaction="Reviews.html" formmethod="post">Submit</button>
                                 </p>
+                                <p>
+                                    <button type="reset">Reset</button>
+                                </p>
+                            </div>
                             </div>
                         </form>
                     </fieldset>
