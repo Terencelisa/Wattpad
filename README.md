@@ -43,8 +43,8 @@ I'm currently learning the front-end development and would probably sneak into t
 ## Motivation
 So, I started on a whim but I came across this amazing discord server called Syntax Study Group and they have helped a lot in this. I might have troubled them a lot with my questions. Among them, especially WingManUp06#2016, Rimtasvyras#9557, kindacatch#1629, Michal#0610 and ➳ᴹᴿメ 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156 among others have helped me a lot from the very start and they were the ones who would motivate me to complete my project.
 
-Currently, I only know 's github profile, which is:
-[➳ᴹᴿメ 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156's profile](https://github.com/Rajasthanichora)
+Currently, I only know 's github profile, which is:  
+[➳ᴹᴿメ 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156's profile](https://github.com/Rajasthanichora)  
 But I will make sure to add others as I discover them.
 
 ## Build Status
