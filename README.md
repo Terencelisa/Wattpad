@@ -3,8 +3,8 @@
 ![GitHub](https://img.shields.io/github/license/terencelisa/wattpad?logo=github)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/terencelisa/wattpad)
 
-## Project title
-#NehaSharma205  
+## Project title  
+NehaSharma205  
 
 ![Logo golden book](https://raw.githubusercontent.com/Terencelisa/Wattpad/11beca9d54e32d8c6d37d74aff6b941c552935dc/logo.png#center)  
 
