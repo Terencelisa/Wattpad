@@ -112,7 +112,8 @@ If the images are not loading, please check if the file names in index.html and 
 That's because the review section doesn't lead to a page yet. I want to develop it into a comment section of sorts so that people can see and maybe edit their posted reviews anonymously. I will need time, effort and studies to execute that but at this stage, that is not completed yet.
 
 ## Maintainers
-- Lisa Terence [Lisa Terence](https://github.com/Terencelisa)
+- Lisa Terence   
+[Lisa Terence](https://github.com/Terencelisa)
 
 ## Documentation
 1. Open the link and start interacting on the ongoing website I have made.
