@@ -1,4 +1,4 @@
-# Temp prject. Shields!
+# Temp project. Shields!
 ![GitHub all releases](https://img.shields.io/github/downloads/Terencelisa/Wattpad/total?logo=github&style=flat-square)
 
 ## Project title
