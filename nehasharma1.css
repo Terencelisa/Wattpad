@@ -9,14 +9,22 @@
 body {
     min-height: 100vh;
     width: 100%;
+    background: #e3e3e3
+}
+
+p {
+    padding: 1em;
+}
+
+button {
+    cursor: pointer;
 }
 
 .label {
     display: block;
     font-size: 2rem;
-    padding: 0.5rem;
+    padding: 0.2em;
     border: thin;
-    padding-right: 0;
     display: block;
 }
 
@@ -47,7 +55,7 @@ body {
 
 ul li {
     list-style: none;
-
+    padding: 0.1em;
 }
 
 
@@ -55,12 +63,12 @@ nav a {
     font-size: 1.25rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
-    padding: 1em;
     line-height: 3em;
 }
 
 ul li:hover {
     background: #e3e3e3;
+    border-radius: 0.2em;
 }
 
 .label:hover .nav {
@@ -76,22 +84,16 @@ ul li:hover {
 #top {
     min-height: 100vh;
     background: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: dashed black 3px;
 }
 
 fieldset {
     padding: 1em;
     margin: 0 1em;
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-legend {
-    margin: auto;
-    font-weight: 300;
-    padding: 0.5em;
 }
 
 h1 {
@@ -104,11 +106,17 @@ h1 {
 
 h2 {
     text-align: center;
+    margin: 1em auto;
 }
 
 .index {
     background: azure;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: dashed black 3px;
 }
 
 h3 {
@@ -116,7 +124,7 @@ h3 {
     text-align: center;
     border-bottom: double 2px black;
     width: fit-content;
-    margin: 0 auto 1em;
+    margin: 0.3em auto;
 }
 
 table {
@@ -153,12 +161,18 @@ caption {
     background: #e3e3e3;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .content img {
-    float: left;
     width: fit-content;
-    padding-right: 10px;
+    padding-right: 5px;
     margin: 0 1rem;
-    display: inline;
+    display: block;
 }
 
 .content p {
@@ -166,60 +180,152 @@ caption {
     font-size: 1.75rem;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
-    display: inline;
+    display: block;
+    padding-right: 1em;
+    box-sizing: border-box;
 }
 
 form {
-    margin: 4em auto 0;
-    display: inline-flex;
-    flex-direction: row;
+    margin: 0 auto;
     float: left;
 }
 
 form label {
     float: left;
-    margin: 0.5em;
+    margin-left: 0.5em;
     font-weight: bold;
     height: fit-content;
 }
 
-.form {
-    width: max-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+form input {
+    width: 30vw;
+    font-size: 1rem;
+    margin: 0 0.5em;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form textarea {
     min-width: 70vw;
-    font-size: 16px;
-    height: 150px;
+    font-size: 1rem;
+    height: 100px;
     box-sizing: border-box;
-    margin: 0 1em;
+    margin: 0 0.5em;
     border-radius: 0.2em;
-    position: relative;
     display: inline-block;
     resize: none;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :placeholder-shown {
     padding: 0.5em;
 }
-.buttons {
-    text-align: center;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 400px;
-}
 
 form button {
     padding: 0.5em;
     border-radius: 0.5em;
-    margin: 0.5em auto;
+    margin: 0 auto 0.5em;
     width: 58.83px;
 }
 
+footer {
+    text-align: center;
+    min-height: 25vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: #121212;
+    border-top: double 5px beige;
+}
 
+footer p {
+    color: beige;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 1em;
+}
+
+footer li {
+    color: beige;
+    font-size: 18px;
+    width: fit-content;
+    padding-top: 0.5em;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+footer li:hover {
+    background: #3b3b3bd4;
+}
+
+ol {
+    text-align: center;
+    margin: 1em;
+}
+
+.new li {
+    list-style: square inside;
+}
+
+footer a {
+    color: bisque;
+}
+
+.new ol {
+    text-align: left;
+}
+
+.new li {
+    text-align: justify;
+}
+
+.new h3 {
+    border: none;
+    font-size: x-large;
+}
+
+h4 {
+    padding:1em;
+    font-size: large;
+    line-height: 1.5rem;
+}
+
+.new table {
+    width: 80vw;
+    margin: auto;
+}
+
+.new th {
+    font-size: x-large;
+}
+
+.new td {
+    font-size: large;
+}
+
+.contact h1 {
+    padding: 0.5em;
+    text-decoration: underline;
+}
+
+.contact h2 {
+    text-align: justify;
+    display: block;
+    padding: 1em;
+}
+
+.contact li {
+    list-style: decimal inside;
+    line-height: 1.5em;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    padding-bottom: 4em;
+    text-align: justify;
+}
