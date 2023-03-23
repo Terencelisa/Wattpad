@@ -5,7 +5,7 @@
 
 ## Project title
 #NehaSharma205
-\
+
 ![Logo golden book](https://raw.githubusercontent.com/Terencelisa/Wattpad/11beca9d54e32d8c6d37d74aff6b941c552935dc/logo.png#center)\
 
 This is a website about Author Neha Sharma putting forward her books so that anyone who visits this site can go ahead and get directed to her books.
@@ -96,9 +96,9 @@ No, the website is only for big screens like laptops or PCs. For mobiles or tabl
 The webpage was created while keeping chrome in mind. So, usage of chrome is recommended. If there is still a problem, please double check if the name of the CSS file is nehasharma1.css.\\
 
 3. The images are not loading.\\
-If the images are not loading, please check if the file names in index.html and the the of the images match. For example, if the problem is image of Goddess Mohini, please check that in the file names, that image is named as mohini.png.\\
+If the images are not loading, please check if the file names in index.html and the the of the images match. For example, if the problem is image of Goddess Mohini, please check that in the file names, that image is named as mohini.png.\
 
-4. I can't submit my reviews. \\
+4. I can't submit my reviews. \
 That's because the review section doesn't lead to a page yet. I want to develop it into a comment section of sorts so that people can see and maybe edit their posted reviews anonymously. I will need time, effort and studies to execute that but at this stage, that is not completed yet.\\
 
 ## Maintainers
