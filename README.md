@@ -12,8 +12,8 @@
 
 ## Project title
 #NehaSharma205
-![Logo golden book](https://raw.githubusercontent.com/Terencelisa/Wattpad/11beca9d54e32d8c6d37d74aff6b941c552935dc/logo.png)
-This is a website about Author Neha Sharma putting forward her books so that anyone who visits this site can go ahead and get directed to her books.
+> ![Logo golden book](https://raw.githubusercontent.com/Terencelisa/Wattpad/11beca9d54e32d8c6d37d74aff6b941c552935dc/logo.png)
+> This is a website about Author Neha Sharma putting forward her books so that anyone who visits this site can go ahead and get directed to her books.
 
 ## Project Description
 I have tried making a webpage which would allow users to post comments or reviews about my books they read or other information they might need with it. I have used pure HTML and CSS yet because I only need those but I will surely include javascript in the future.
