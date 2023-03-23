@@ -1,9 +1,11 @@
-# Temp project. Shields!
+# Temp prject. Shields!
 ![GitHub all releases](https://img.shields.io/github/downloads/Terencelisa/Wattpad/total?logo=github&style=flat-square)
+![GitHub](https://img.shields.io/github/license/terencelisa/wattpad?logo=github)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/terencelisa/wattpad)
 
 ## Project title
 #NehaSharma205
-[Logo golden book](https://raw.githubusercontent.com/Terencelisa/Wattpad/11beca9d54e32d8c6d37d74aff6b941c552935dc/logo.png#center)
+[Logo golden book](https://raw.githubusercontent.com/Terencelisa/Wattpad/11beca9d54e32d8c6d37d74aff6b941c552935dc/logo.png)
 This is a website about Author Neha Sharma putting forward her books so that anyone who visits this site can go ahead and get directed to her books.
 
 ## Project Description
@@ -46,13 +48,13 @@ But I will make sure to add others as I discover them.
 The project is still in its budding stage because the developer, me, has not ventured into js (javascript) yet. That's why if you press the submit button, it would show you an error. I plan to make it like a comment section so that everyone can read your review.
 
 ## Screenshots
-[Screenshot 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot1.png#center)
+[Screenshot 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot1.png)
 
-[Screenshot 2](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot2.png#center)
+[Screenshot 2](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot2.png)
 
-[Screenshot 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot3.png#center)
+[Screenshot 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot3.png)
 
-[Screenshot 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot4.png#center)
+[Screenshot 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/0de137f1d8d258b557aa6ba6b6b52c434edb5e96/Screenshot4.png)
 
 ## Tech or Framework used
 No tech or framework is used. I have used pure CSS and HTML. However, I have used an svg element for the small arrow in the label element of the nav section.
@@ -73,16 +75,16 @@ Use your normally used browser to search for chrome. If you want, this link will
 ## Configuration
 If you are installing google chrome for this and the webpage still doesn't appear on chrome, you might want to set your default browser as chrome. For this: 
 - Open chrome.
-[Chrome install step 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome1.png#center)
+[Chrome install step 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome1.png)
 
 - Click on the three dots at the upper right hand side corner of the page. 
-[Chrome install step 2](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome2.png#center)
+[Chrome install step 2](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome2.png)
 
 - A dropdown menu will appear. Click on settings. 
-[Chrome install step 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome3.png#center)
+[Chrome install step 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome3.png)
 
 - It will lead you to the settings page of chrome and from there, go to default browser and click on make default
-[Chrome install step 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome4.png#center)
+[Chrome install step 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome4.png)
 
 ## Troubleshooting & Frequently asked questions
 1. Is the website mobile friendly?
