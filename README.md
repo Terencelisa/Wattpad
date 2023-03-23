@@ -81,7 +81,7 @@ Use your normally used browser to search for chrome. If you want, this link will
 
 ## Configuration
 If you are installing google chrome for this and the webpage still doesn't appear on chrome, you might want to set your default browser as chrome. For this: 
-- Open chrome.
+- Open chrome.  
 ![Chrome install step 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome1.png)
 
 - Click on the three dots at the upper right hand side corner of the page. 
@@ -90,7 +90,8 @@ If you are installing google chrome for this and the webpage still doesn't appea
 - A dropdown menu will appear. Click on settings. 
 ![Chrome install step 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome3.png)
 
-- It will lead you to the settings page of chrome and from there, go to default browser and click on make default
+- It will lead you to the settings page of chrome and from there, go to default browser and click on make default.  
+
 ![Chrome install step 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome4.png)
 
 ## Troubleshooting & Frequently asked questions
