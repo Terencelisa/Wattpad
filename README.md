@@ -77,35 +77,34 @@ Chrome browser
 
 ## Installation
 Use your normally used browser to search for chrome. If you want, this link will directly lead you to the chrome webpage from where, they can install chrome.
-![Chrome website](https://www.google.com/chrome/?brand=FNES&gclid=EAIaIQobChMI34OXm4by_QIVkevtCh1nHgQPEAAYASAAEgIBNPD_BwE&gclsrc=aw.ds)
+> ![Chrome website](https://www.google.com/chrome/?brand=FNES&gclid=EAIaIQobChMI34OXm4by_QIVkevtCh1nHgQPEAAYASAAEgIBNPD_BwE&gclsrc=aw.ds)
 
 ## Configuration
 If you are installing google chrome for this and the webpage still doesn't appear on chrome, you might want to set your default browser as chrome. For this: 
 - Open chrome.  
-![Chrome install step 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome1.png)
+> ![Chrome install step 1](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome1.png)
 
 - Click on the three dots at the upper right hand side corner of the page. 
-![Chrome install step 2](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome2.png)
+> ![Chrome install step 2](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome2.png)
 
 - A dropdown menu will appear. Click on settings. 
-![Chrome install step 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome3.png)
+> ![Chrome install step 3](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome3.png)
 
 - It will lead you to the settings page of chrome and from there, go to default browser and click on make default.  
-
-![Chrome install step 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome4.png)
+> ![Chrome install step 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome4.png)
 
 ## Troubleshooting & Frequently asked questions
 1. Is the website mobile friendly?
-No, the website is only for big screens like laptops or PCs. For mobiles or tablets though, not currently.
+>No, the website is only for big screens like laptops or PCs. For mobiles or tablets though, not currently.
 
 2. The CSS is not getting applied.
-The webpage was created while keeping chrome in mind. So, usage of chrome is recommended. If there is still a problem, please double check if the name of the CSS file is nehasharma1.css .
+> The webpage was created while keeping chrome in mind. So, usage of chrome is recommended. If there is still a problem, please double check if the name of the CSS file is nehasharma1.css .
 
 3. The images are not loading.
-If the images are not loading, please check if the file names in index.html and the the of the images match. For example, if the problem is image of Goddess Mohini, please check that in the file names, that image is named as mohini.png.
+> If the images are not loading, please check if the file names in index.html and the the of the images match. For example, if the problem is image of Goddess Mohini, please check that in the file names, that image is named as mohini.png.
 
 4. I can't submit my reviews. 
-That's because the review section doesn't lead to a page yet. I want to develop it into a comment section of sorts so that people can see and maybe edit their posted reviews anonymously. I will need time, effort and studies to execute that but at this stage, that is not completed yet.
+> That's because the review section doesn't lead to a page yet. I want to develop it into a comment section of sorts so that people can see and maybe edit their posted reviews anonymously. I will need time, effort and studies to execute that but at this stage, that is not completed yet.
 
 ## Maintainers
 - Lisa Terence [Lisa Terence](https://github.com/Terencelisa)
