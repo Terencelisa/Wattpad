@@ -31,6 +31,7 @@ I have tried making a webpage which would allow users to post comments or review
 - ## Recommended modules
 - ## Installation
 - ## Configuration
+- ## License
 - ## Troubleshooting & Frequently asked questions
 - ## Maintainers
 - ## Documentation
@@ -80,7 +81,7 @@ Chrome browser
 
 ## Installation
 Use your normally used browser to search for chrome. If you want, this link will directly lead you to the chrome webpage from where, they can install chrome.
-> ![Chrome website](https://www.google.com/chrome/?brand=FNES&gclid=EAIaIQobChMI34OXm4by_QIVkevtCh1nHgQPEAAYASAAEgIBNPD_BwE&gclsrc=aw.ds)
+> [Chrome website](https://www.google.com/chrome/?brand=FNES&gclid=EAIaIQobChMI34OXm4by_QIVkevtCh1nHgQPEAAYASAAEgIBNPD_BwE&gclsrc=aw.ds)
 
 ## Configuration
 If you are installing google chrome for this and the webpage still doesn't appear on chrome, you might want to set your default browser as chrome. For this: 
@@ -95,6 +96,10 @@ If you are installing google chrome for this and the webpage still doesn't appea
 
 - It will lead you to the settings page of chrome and from there, go to default browser and click on make default.  
 > ![Chrome install step 4](https://raw.githubusercontent.com/Terencelisa/Wattpad/89656f33f7203757c5a0620e066f5431a73e6b7c/Chrome4.png)
+
+## License
+GNU AFFERO GENERAL PUBLIC LICENSE
+> Version 3, 19 November 2007
 
 ## Troubleshooting & Frequently asked questions
 1. Is the website mobile friendly?
