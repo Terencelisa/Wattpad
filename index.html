@@ -116,8 +116,17 @@
                     <fieldset>
                         <legend>REVIEWS</legend>
                         <p><label for="username">Your username:</label>
-                        <input name="username" id="username" placeholder="What name do you want your review to carry?"></p>
-                        <p><label for="theenchantress">Your review:</label>
+                            <input
+                                name="username"
+                                id="username"
+                                placeholder="L1sa"
+                                pattern="[A-Za-z][0-9]+"
+                            >
+                        </p>
+                        <p>
+                            *Must contain at least one uppercase, lowercase letter 
+                            and one digit
+                        </p>
                                 <textarea name="theenchantress" id="theenchantress" placeholder="Your reviews after reading the book:"></textarea></p>
                         </fieldset>
                                 <button type="submit" formaction="Reviews.html" formmethod="post">
