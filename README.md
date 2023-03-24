@@ -46,10 +46,11 @@ I have tried making a webpage which would allow users to post comments or review
 I'm currently learning the front-end development and would probably sneak into the back-end.
 
 ## Motivation
-So, I started on a whim but I came across this amazing discord server called Syntax Study Group and they have helped a lot in this. I might have troubled them a lot with my questions. Among them, especially WingManUp06#2016, Rimtasvyras#9557, kindacatch#1629, Michal#0610 and ➳ᴹᴿメ 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156 among others have helped me a lot from the very start and they were the ones who would motivate me to complete my project.
+So, I started on a whim but I came across this amazing discord server called Syntax Study Group and they have helped a lot in this. I might have troubled them a lot with my questions. Among them, especially WingManUp06#2016, Rimtasvyras#9557, kindacatch#1629, Michal#0610, ➳ᴹᴿメ and Stz#6271. 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156 among others have helped me a lot from the very start and they were the ones who would motivate me to complete my project.
 
-Currently, I only know 's github profile, which is:
+Currently, I only know ➳ᴹᴿメ 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156's and Stz#6271's github profile, which is:
 [➳ᴹᴿメ 𝘕𝘰𝘵 𝘠𝘰𝘶𝘳 𝘛𝘺𝘱𝘦 亗#9156's profile](https://github.com/Rajasthanichora)
+[Stz#6271's profile](https://github.com/Aditya-0712)
 But I will make sure to add others as I discover them.
 
 ## Build Status
