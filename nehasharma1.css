@@ -23,13 +23,14 @@ button {
 .label {
     display: block;
     font-size: 2rem;
-    padding: 0.2em;
     border: thin;
-    display: block;
 }
 
 .label button {
     background: rgba(211, 211, 211, 0.539);
+    padding: 0.6em;
+    border-radius: 0.5em;
+    width: 207.37px
 }
 
 .label:hover svg {
@@ -40,22 +41,28 @@ button {
     margin: 2em;
     border: black solid 1px;
     border-radius: 0.5em;
-    width: max-content;
     text-align: center;
     display: inline;
     position: fixed;
     float: right;
-    background: rgba(211, 211, 211);
+    background: rgb(211, 211, 211);
     right: 0;
 }
 
 .nav {
     display: none;
+    width: 100%;
+    margin: auto;
 }
 
-ul li {
+nav li {
     list-style: none;
-    padding: 0.1em;
+    width: 100%;
+    display: block;
+}
+
+nav li:first-child{
+    border-top: black solid 1px;
 }
 
 
@@ -64,11 +71,24 @@ nav a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
     line-height: 3em;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
 }
 
-ul li:hover {
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover {
     background: #e3e3e3;
     border-radius: 0.2em;
+}
+
+nav ul li:hover a {
+    color: rgba(74, 74, 74, 0.785);
 }
 
 .label:hover .nav {
