@@ -6,10 +6,14 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    min-height: 100vh;
     width: 100%;
-    background: #e3e3e3
+    background: #e3e3e3;
+    min-height: 100vh;
 }
 
 p {
@@ -20,9 +24,13 @@ button {
     cursor: pointer;
 }
 
+nav {
+    width: 15vw;
+}
+
 .label {
     display: block;
-    font-size: 2rem;
+    font-size: 2.3vw;
     border: thin;
 }
 
@@ -30,7 +38,6 @@ button {
     background: rgba(211, 211, 211, 0.539);
     padding: 0.6em;
     border-radius: 0.5em;
-    width: 207.37px
 }
 
 .label:hover svg {
@@ -47,10 +54,12 @@ button {
     float: right;
     background: rgb(211, 211, 211);
     right: 0;
+    z-index: 1;
 }
 
 .nav {
-    display: none;
+    position: absolute;
+    right: 10000px;
     width: 100%;
     margin: auto;
 }
@@ -67,7 +76,7 @@ nav li:first-child{
 
 
 nav a {
-    font-size: 1.25rem;
+    font-size: 1.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 200;
     line-height: 3em;
@@ -84,7 +93,10 @@ nav a:visited {
 
 nav ul li:hover {
     background: #e3e3e3;
-    border-radius: 0.2em;
+}
+
+nav ul li:last-child:hover {
+    border-radius : 0 0 0.2em 0.2em;
 }
 
 nav ul li:hover a {
@@ -92,12 +104,13 @@ nav ul li:hover a {
 }
 
 .label:hover .nav {
-    display: inline-block;
+    right: 0;
+    position: static;
 }
 
 .navbar svg {
-    height: 2rem;
-    width: 2rem;
+    height: auto;
+    width: 2.3vw;
     vertical-align: middle;
 }
 
@@ -109,24 +122,26 @@ nav ul li:hover a {
     align-items: center;
     flex-direction: column;
     border-bottom: dashed black 3px;
+    width: 100%;
 }
 
-fieldset {
-    padding: 1em;
-    margin: 0 1em;
+header {
+    width: 100%;
 }
 
 h1 {
-    width: fit-content;
-    font-size: 4.5rem;
+    font-size: 5vw;
     text-align: center;
     margin: auto;
     font-weight: lighter;
+    width: 100%
 }
 
 h2 {
     text-align: center;
     margin: 1em auto;
+    width: 100%;
+    font-size: 2vw;
 }
 
 .index {
@@ -137,14 +152,16 @@ h2 {
     align-items: center;
     flex-direction: column;
     border-bottom: dashed black 3px;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 3vw;
     text-align: center;
-    border-bottom: double 2px black;
+    border-bottom: double 4px black;
     width: fit-content;
-    margin: 0.3em auto;
+    margin: 0.5em auto;
 }
 
 h3 a {
@@ -154,26 +171,28 @@ h3 a {
 
 table {
     caption-side: bottom;
-    width: fit-content;
+    width: 50vw;
+    margin: 1em auto;
     border: 4px solid black;
+    height: auto
 }
 
 th {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
     border: 2px black solid;
     padding: 0.5em;
 }
 
 td {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     border: 2px black solid;
     padding: 0.5em;
 }
 
-caption {
-    font-size: 1.5rem;
+table caption {
+    font-size: 2vw;
     margin: auto;
     text-decoration: underline 1px;
 }
@@ -188,24 +207,31 @@ caption {
 
 .content {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
     border: 3px black groove;
-    width: fit-content;
+    width: 90vw;
     margin: 1em;
+    height: auto;
 }
 
 .content img {
-    width: fit-content;
-    margin: 0 1em;
+    margin: auto 2vw;
     display: block;
     border: 3px dashed black;
+    width: 9.8vw;
+    height: auto;
+}
+
+p {
+    font-size: 1.2vw;
+    margin: 0.5em
 }
 
 .content p {
     text-align: justify;
-    font-size: 1.75rem;
+    font-size: 2.3vw;
     font-family: "Poppins", sans-serif;
     font-weight: bolder;
     display: block;
@@ -220,7 +246,8 @@ caption {
 
 p a:hover,
 h3 a:hover {
-    color: rgba(65, 63, 63, 0.721);
+    color: blue;
+    text-decoration: underline;
 }
 
 img:hover {
@@ -228,8 +255,18 @@ img:hover {
 }
 
 form {
-    margin: 0 auto;
-    float: left;
+    margin: 5vh auto;
+}
+
+fieldset {
+    padding: 1em;
+    margin: 0 1em;
+    width: 75vw;
+    height: auto;
+}
+
+legend {
+    font-size: 1.2vw;
 }
 
 form label {
@@ -237,72 +274,83 @@ form label {
     margin: 0.5em;
     font-weight: bold;
     height: fit-content;
+    font-size: 1.2vw;
 }
 
 form input {
     width: 33vw;
-    font-size: 1rem;
+    font-size: 1.1vw;
     margin: 0 0.5em;
-    padding: 0.5em;
+    padding: 0.6em;
+    border-radius: 0.2em;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 form p {
     color: dimgray;
     padding: 0 0 1em;
-    margin-left: 8.2em;
+    margin-left: 9em;
     display: block;
+    font-size: 1.1vw;
 }
 
 form textarea {
-    min-width: 70vw;
-    font-size: 1rem;
-    height: 100px;
+    width: 50vw;
+    font-size: 1.1vw;
+    height: auto;
+    resize: vertical;
     box-sizing: border-box;
     margin: 0 0.5em;
     border-radius: 0.2em;
     display: inline-block;
     resize: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-:placeholder-shown {
     padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form button {
     padding: 0.5em;
     border-radius: 0.5em;
     margin: 0 auto 0.5em;
-    width: 58.83px;
+    width: 4vw;
+    height: auto;
+    font-size: 0.8vw;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: #e3e3e3;
 }
 
 footer {
     text-align: center;
-    min-height: 25vh;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    height: auto;
     background: #121212;
     border-top: double 5px beige;
+    font-size: 1.6vw;
 }
 
 footer p {
     color: beige;
-    font-size: 20px;
     text-decoration: underline;
     margin: 1em;
+    font-size: 1.7vw;
 }
 
 footer li {
     color: beige;
-    font-size: 18px;
     width: fit-content;
     padding: 0.5em 0.5em 0;
     text-align: center;
     margin: 0 auto;
     list-style: none;
+    position: relative;
+    bottom: 0;
 }
 
 footer li:hover {
@@ -320,6 +368,7 @@ ol {
 
 footer a {
     color: bisque;
+    font-size: 1.3vw;
 }
 
 .new ol {
@@ -328,17 +377,17 @@ footer a {
 
 .new li {
     text-align: justify;
+    font-size: 1.2vw;
 }
 
 .new h3 {
     border: none;
-    font-size: x-large;
 }
 
 h4 {
     padding:1em;
-    font-size: large;
-    line-height: 1.5rem;
+    font-size: 1.3vw;
+    line-height: 1.5em;
 }
 
 .new table {
@@ -346,16 +395,8 @@ h4 {
     margin: auto;
 }
 
-.new th {
-    font-size: x-large;
-}
-
-.new td {
-    font-size: large;
-}
-
 .contact main {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .contact h1 {
@@ -372,12 +413,12 @@ h4 {
 .contact li {
     list-style: decimal inside;
     line-height: 1.5em;
-    font-size: 1.5rem;
     text-align: left;
+    font-size: 1.7vw;
 }
 
 .contact p {
-    font-size: 1.2rem;
+    font-size: 1.3vw;
     text-align: justify;
     padding-bottom: 3em;
 }
