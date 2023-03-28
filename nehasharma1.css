@@ -1,3 +1,5 @@
+/* General things start */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 
 * {
@@ -18,11 +20,68 @@ body {
 
 p {
     padding: 1em;
+    text-align: justify;
+    font-size: 2vw;
+    margin: 0.5em;
 }
 
 button {
     cursor: pointer;
 }
+
+ol {
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    padding: 0.5em;
+    list-style: inside;
+}
+
+::-webkit-scrollbar {
+    width: 1.2vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 0.4em;
+    border: black 0.1vw solid;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 0.4em;
+    min-height: 10vh;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-button:single-button {
+    background: #fff;
+    display: block;
+    background-repeat: no-repeat;
+    height: 2.5vh;
+    width: 1.2vw;
+    border: black 0.1vw solid;
+    border-radius: 0.2em;
+    background-position: center;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-image: url("arrow-up.svg");
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: url("arrow-down.svg");
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a7a7a7;
+}
+
+/* General things end */
+
+/* Nav bar starts */
 
 nav {
     width: 15vw;
@@ -114,6 +173,16 @@ nav ul li:hover a {
     vertical-align: middle;
 }
 
+/* Nav bar ends */
+
+/* Main element starts */
+
+main {
+    min-height: 100vh;
+}
+
+/* Home page starts */
+
 .top {
     min-height: 100vh;
     background: #e3e3e3;
@@ -130,19 +199,27 @@ header {
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     text-align: center;
     margin: auto;
     font-weight: lighter;
-    width: 100%
+    width: 100%;
+    padding: 0.5em;
+    text-decoration: underline;
 }
 
 h2 {
     text-align: center;
     margin: 1em auto;
     width: 100%;
-    font-size: 2vw;
+    font-size: 4vw;
+    display: block;
+    padding: 1em;
 }
+
+/* Home page ends */
+
+/* Index starts */
 
 .index {
     background: azure;
@@ -167,6 +244,7 @@ h3 {
 h3 a {
     color: black;
     text-decoration: none;
+    font-size: 3vw;
 }
 
 table {
@@ -179,16 +257,20 @@ table {
 
 th {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     border: 2px black solid;
     padding: 0.5em;
 }
 
 td {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2vw;
     border: 2px black solid;
     padding: 0.5em;
+}
+
+td a {
+    font-size: 2vw;
 }
 
 table caption {
@@ -196,6 +278,10 @@ table caption {
     margin: auto;
     text-decoration: underline 1px;
 }
+
+/* Index ends */
+
+/* Enchantress content starts */
 
 #enchantress {
     min-height: 100vh;
@@ -224,11 +310,6 @@ table caption {
     height: auto;
 }
 
-p {
-    font-size: 1.2vw;
-    margin: 0.5em
-}
-
 .content p {
     text-align: justify;
     font-size: 2.3vw;
@@ -254,6 +335,10 @@ img:hover {
     border-color: blue;
 }
 
+/* Enchantress content ends */
+
+/* Form starts */
+
 form {
     margin: 5vh auto;
 }
@@ -261,12 +346,12 @@ form {
 fieldset {
     padding: 1em;
     margin: 0 1em;
-    width: 75vw;
+    width: 90vw;
     height: auto;
 }
 
 legend {
-    font-size: 1.2vw;
+    font-size: 2vw;
 }
 
 form label {
@@ -274,12 +359,12 @@ form label {
     margin: 0.5em;
     font-weight: bold;
     height: fit-content;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
 }
 
 form input {
     width: 33vw;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     margin: 0 0.5em;
     padding: 0.6em;
     border-radius: 0.2em;
@@ -292,14 +377,13 @@ form p {
     padding: 0 0 1em;
     margin-left: 9em;
     display: block;
-    font-size: 1.1vw;
+    font-size: 1.5vw;
 }
 
 form textarea {
-    width: 50vw;
-    font-size: 1.1vw;
+    width: 65vw;
+    font-size: 1.5vw;
     height: auto;
-    resize: vertical;
     box-sizing: border-box;
     margin: 0 0.5em;
     border-radius: 0.2em;
@@ -313,15 +397,19 @@ form button {
     padding: 0.5em;
     border-radius: 0.5em;
     margin: 0 auto 0.5em;
-    width: 4vw;
+    width: 5vw;
     height: auto;
-    font-size: 0.8vw;
+    font-size: 1vw;
     text-align: center;
 }
 
 form button:hover {
     background-color: #e3e3e3;
 }
+
+/* Form ends */
+
+/* Footer starts */
 
 footer {
     text-align: center;
@@ -333,42 +421,50 @@ footer {
     background: #121212;
     border-top: double 5px beige;
     font-size: 1.6vw;
+    margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 footer p {
     color: beige;
     text-decoration: underline;
-    margin: 1em;
-    font-size: 1.7vw;
+    font-size: 2.5vw;
+    margin: 0 auto;
+}
+
+footer ul {
+    padding: 1em;
 }
 
 footer li {
     color: beige;
     width: fit-content;
-    padding: 0.5em 0.5em 0;
+    padding: 0.5em;
     text-align: center;
     margin: 0 auto;
     list-style: none;
-    position: relative;
-    bottom: 0;
+    line-height: 1.5em;
 }
 
 footer li:hover {
     background: #3b3b3bd4;
 }
 
-ol {
-    text-align: center;
-    margin: 1em;
+footer a {
+    color: bisque;
+    font-size: 2vw;
+}
+
+/* Footer ends */
+
+/* Privacy, tos and disclaimer start */
+
+.new h2 {
+   font-size: 2vw;
 }
 
 .new li {
     list-style: square inside;
-}
-
-footer a {
-    color: bisque;
-    font-size: 1.3vw;
 }
 
 .new ol {
@@ -377,11 +473,12 @@ footer a {
 
 .new li {
     text-align: justify;
-    font-size: 1.2vw;
+    font-size: 2vw;
 }
 
 .new h3 {
     border: none;
+    font-size: 2.2vw;
 }
 
 h4 {
@@ -392,33 +489,28 @@ h4 {
 
 .new table {
     width: 80vw;
-    margin: auto;
 }
 
-.contact main {
-    height: 100vh;
+.new p {
+    font-size: 2vw;
 }
 
-.contact h1 {
-    padding: 0.5em;
-    text-decoration: underline;
-}
+/* Privacy, disclaimer and tos end */
 
-.contact h2 {
+/* Contact starts */
+
+.contact p {
     text-align: justify;
-    display: block;
-    padding: 1em;
+    font-size: 2.2vw;
+    line-height: 1.5em;
+    font-weight: 500;
 }
 
 .contact li {
     list-style: decimal inside;
     line-height: 1.5em;
     text-align: left;
-    font-size: 1.7vw;
+    font-size: 2vw;
 }
 
-.contact p {
-    font-size: 1.3vw;
-    text-align: justify;
-    padding-bottom: 3em;
-}
+/* Contact ends */
