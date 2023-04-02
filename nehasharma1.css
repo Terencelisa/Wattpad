@@ -266,7 +266,7 @@ table caption {
 
 /* Enchantress content starts */
 
-#book {
+.book {
     min-height: 100vh;
     display: flex;
     align-items: center;
